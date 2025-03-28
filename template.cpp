@@ -11,6 +11,7 @@ typedef pair<ll,ll> pll;
 
 #define fori(i, a, b) for (int i=(a); i<(b); i++)
 #define forn(a,x) for (auto& a : x)
+#define fil(v) forn(a,v) cin>>a
 
 #define len(x) (int)(x).size()
 #define pb push_back
