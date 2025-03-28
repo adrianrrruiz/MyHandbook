@@ -17,6 +17,7 @@ typedef pair<ll,ll> pll;
 #define f first
 #define s second
 #define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
 
 #define fast_io ios::sync_with_stdio(0); cin.tie(0);
 
