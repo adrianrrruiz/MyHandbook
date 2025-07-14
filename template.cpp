@@ -56,7 +56,7 @@ template<class T> using pqg = priority_queue<T, vector<T>, greater<T>>;
 
 #define foran(i, a, n) for (int i=(a); i<(n); i++)
 #define forn(i, n) foran (i, 0, n)
-#define trav(a, x) trav (auto &a : x)
+#define trav(a, x) for (auto &a : x)
 #define fil(v) trav(a,v) cin>>a
 
 #define len(x) (int)(x).size()
